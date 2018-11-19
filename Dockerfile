@@ -2,6 +2,6 @@ FROM python:alpine
 
 RUN apk update && \
     apk add --virtual build-dependencies gcc libffi-dev linux-headers make musl-dev openssl-dev && \
-    apk add graphviz && \
     pip install ansible-inventory-grapher ara && \
-    apk del build-dependencies
+    apk del build-dependencies && \
+    apk add graphviz libssl1.0
