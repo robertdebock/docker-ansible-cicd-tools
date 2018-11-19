@@ -2,5 +2,5 @@ FROM python:alpine
 
 RUN apk update &&\
     apk add graphviz gcc && \
-    apk clean cache &&\
+    apk cache clean &&\
     pip install ansible-inventory-grapher ara
