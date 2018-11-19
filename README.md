@@ -1,5 +1,5 @@
-Docker Ansible Inventory Grapher
-================================
+Docker Ansible CI/CD Tools
+==========================
 
 This container has everything required to run Ansible stuff in a pipeline.
 - [willthames ansible-inventory-grapher](https://github.com/willthames/ansible-inventory-grapher).
